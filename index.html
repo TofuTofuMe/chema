@@ -5,26 +5,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="css/index.css">
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script defer src="js/index.js"></script>
 
   </head>
   <body>
-    <section class="hero">
+    <section class="hero is-primary is-fullheight">
       <div class="hero-body">
-        <div class="container is-fluid is-centered">
+        <div class="container has-text-centered">
           <h1 class="title">
-            Chema
+            chema
           </h1>
           <h2 class="subtitle">
             a chemistry assistant
           </h2>
         </div>
-        <div class="container">
-          <div class="columms is-centered">
+        <div class="container has-text-centered">
+          <div class="columms">
             <div class="column">
-              <a class="button">Kitchen Compounds</a>
+              <a class="button" href="kitchen.html">Kitchen Compounds</a>
             </div>
             <div class="column">
               <a class="button">Chemical Lookup</a>
@@ -32,9 +33,22 @@
             <div class="column">
               <a class="button">Chemistry Calculator</a>
             </div>
+
           </div>
         </div>
+        
       </div>
+      <div class="hero-footer">
+        <nav class="tabs">
+          <div class="container">
+            <ul>
+              <li class="is-active">Home</li>
+              <li>About</li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+     
     </section>
     
   </body>
